@@ -47,7 +47,7 @@ To create custom SVG logos with the SVG Logo Generator, follow these simple step
 
 Congratulations! You've successfully created your custom SVG logo using the SVG Logo Generator. You can now use this logo in your projects for branding and design purposes.
 
-(Link to demo video)[https://drive.google.com/file/d/1PEPfkTLY85nnjrMWbwbIpydtBms77eom/view]
+[Link to demo video](https://drive.google.com/file/d/1PEPfkTLY85nnjrMWbwbIpydtBms77eom/view)
 
 ## Example
 
