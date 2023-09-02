@@ -47,7 +47,7 @@ To create custom SVG logos with the SVG Logo Maker, follow these simple steps:
 
 Congratulations! You've successfully created your custom SVG logo using the SVG Logo Maker. You can now use this logo in your projects for branding and design purposes.
 
-[Watch demo video](https://drive.google.com/file/d/1PEPfkTLY85nnjrMWbwbIpydtBms77eom/view)
+[Watch demo video](https://drive.google.com/file/d/1J7FKq9YGHiuxHwBbNSkHl16yXR2o-9kM/view)
 
 ## Example
 
