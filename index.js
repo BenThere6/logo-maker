@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
-const shapes = require('./lib/shapes');
 const fs = require('fs');
+const util = require('util');
+const statAsync = util.promisify(fs.stat);
 const { Triangle, Square, Circle } = require('./lib/shapes');
 
 const prompts = [
@@ -59,13 +60,30 @@ inquirer
     ${shapeLine}
     <text x="50%" y="${text_y}" font-size="60" text-anchor="middle" fill="${text_color}">${text}</text>
 </svg>`;
-        fs.writeFile('./dist/logo.svg',fileData, (err) => {
-            if (err) {
-                console.error('Error writing to the file:', err);
-            } else {
-                console.log('Generated logo.svg')
+        
+        async function findAvailableFilePath(basePath, count) {
+            const filePath = `./dist/logo_${count}.svg`;
+        
+            try {
+                await statAsync(filePath);
+                return findAvailableFilePath(basePath, count + 1);
+            } catch (err) {
+                return filePath;
             }
-        })
+        }
+        
+        (async () => {
+            const basePath = './dist/logo_';
+            const availableFilePath = await findAvailableFilePath(basePath, 1);
+        
+            fs.writeFile(availableFilePath,fileData, (err) => {
+                if (err) {
+                    console.error('Error writing to the file:', err);
+                } else {
+                    console.log('Generated logo.svg')
+                }
+            });
+        })();
     })
     .catch((error) => {
         console.error(error);
