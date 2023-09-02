@@ -11,6 +11,8 @@ The SVG Logo Generator is a versatile Node.js script designed for effortless log
 * [Project Information](#project-information)<br>
 * [Installation](#installation)<br>
 * [Usage](#usage)<br>
+* [Example](#example)<br>
+* [Requirements](#requirements)<br>
 * [Tests](#tests)<br>
 * [Contact Information](#contact-information)<br>
 * [License](#license)
