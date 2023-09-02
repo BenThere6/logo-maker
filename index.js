@@ -9,6 +9,7 @@ const prompts = [
         type: 'input',
         name: 'text',
         message: 'Enter up to three characters for logo:',
+        // Validate that input does not exceed 3 characters
         validate: function (input) {
             if (input.length <= 3) {
                 return true;
@@ -56,11 +57,13 @@ inquirer
         shape.setColor(answers.shape_color);
         shapeLine = shape.render();
 
+        // Data to be written to file
         fileData = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
     ${shapeLine}
     <text x="50%" y="${text_y}" font-size="60" text-anchor="middle" fill="${text_color}">${text}</text>
 </svg>`;
         
+        // This function ensures that old logos are not written over. A new file with a unique name is created for each logo generated.
         async function findAvailableFilePath(basePath, count) {
             const filePath = `./dist/logo_${count}.svg`;
         
