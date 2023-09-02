@@ -51,7 +51,7 @@ Congratulations! You've successfully created your custom SVG logo using the SVG 
 
 Input:
 * Text: "abc"
-* Text Color: "red"
+* Text Color: "black"
 * Shape: "Circle"
 * Shape Color: "blue"
 
