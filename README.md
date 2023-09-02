@@ -4,7 +4,7 @@
   
 ## Description
   
-The SVG Logo Generator is a versatile Node.js script designed for effortless logo creation. Through a user-friendly command-line interface, this script empowers users to define their logo's key attributes. You can specify up to three characters for the logo text and choose your preferred text color. Additionally, you have the flexibility to determine the logo's shape, selecting from square, circle, or triangle options, and customize its color to suit your branding needs.<br><br>Once you've defined your logo's specifications, the script works its magic, generating a beautiful SVG logo that encapsulates your preferences. This logo is then conveniently saved in the 'dist' directory within the project folder, ready for seamless integration into your websites, applications, or any other design projects. With the SVG Logo Generator, you can effortlessly craft unique logos that reflect your brand's identity and vision.
+The SVG Logo Maker is a versatile Node.js script designed for effortless logo creation. Through a user-friendly command-line interface, this script empowers users to define their logo's key attributes. You can specify up to three characters for the logo text and choose your preferred text color. Additionally, you have the flexibility to determine the logo's shape, selecting from square, circle, or triangle options, and customize its color to suit your branding needs.<br><br>Once you've defined your logo's specifications, the script works its magic, generating a beautiful SVG logo that encapsulates your preferences. This logo is then conveniently saved in the 'dist' directory within the project folder, ready for seamless integration into your websites, applications, or any other design projects. With the SVG Logo Maker, you can effortlessly craft unique logos that reflect your brand's identity and vision.
 
 ## Table of Contents
 
@@ -23,20 +23,20 @@ This project is developed as part of a school assignment for Rutgers University.
 
 ## Installation
 
-To install the SVG Logo Generator, follow these simple steps:
+To install the SVG Logo Maker, follow these simple steps:
 
 1. Clone or download this repository to your local machine.
 2. Navigate to the project directory using your terminal.
 3. Install the project dependencies using 'npm install'.
 
-That's it! You've successfully installed the SVG Logo Generator on your machine. You can now proceed to use the script to create custom SVG logos for your projects.
+That's it! You've successfully installed the SVG Logo Maker on your machine. You can now proceed to use the script to create custom SVG logos for your projects.
 
 ## Usage
 
-To create custom SVG logos with the SVG Logo Generator, follow these simple steps:
+To create custom SVG logos with the SVG Logo Maker, follow these simple steps:
 
-1. Open your terminal and navigate to the project directory where the SVG Logo Generator is located.
-2. Initiate the script by entering 'npm start'. This command launches the SVG Logo Generator script and prompts you to configure your logo.
+1. Open your terminal and navigate to the project directory where the SVG Logo Maker is located.
+2. Initiate the script by entering 'npm start'. This command launches the SVG Logo Maker script and prompts you to configure your logo.
 3. Follow the on-screen prompts:
     * Enter the text you want in your logo (up to three characters).
     * Choose the color of the text.
@@ -45,7 +45,7 @@ To create custom SVG logos with the SVG Logo Generator, follow these simple step
 4. Once you've completed the prompts, the script will generate your custom SVG logo based on your preferences.
 5. Find the saved logo file in the 'dist' folder within the project directory. The file will be named 'logo.svg'.
 
-Congratulations! You've successfully created your custom SVG logo using the SVG Logo Generator. You can now use this logo in your projects for branding and design purposes.
+Congratulations! You've successfully created your custom SVG logo using the SVG Logo Maker. You can now use this logo in your projects for branding and design purposes.
 
 [Watch demo video](https://drive.google.com/file/d/1PEPfkTLY85nnjrMWbwbIpydtBms77eom/view)
 
@@ -65,7 +65,7 @@ Input:
 
 ## Tests
 
-To test the SVG Logo Maker, you can simply run the command 'npm test' in your terminal. This command will execute the test suite for the SVG Logo Generator, ensuring that the script generates logos correctly based on user inputs. After running the tests, you can review the results in the terminal. Successful tests provide confidence in the script's reliability and accuracy when creating custom SVG logos.
+To test the SVG Logo Maker, you can simply run the command 'npm test' in your terminal. This command will execute the test suite for the SVG Logo Maker, ensuring that the script generates logos correctly based on user inputs. After running the tests, you can review the results in the terminal. Successful tests provide confidence in the script's reliability and accuracy when creating custom SVG logos.
 
 ## Contact Information
 
